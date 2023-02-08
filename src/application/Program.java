@@ -33,7 +33,7 @@ public class Program {
 			
 			try {
 				acc.withdraw(amount);
-				System.out.printf("Novo saldo: %.2f%n", acc.getBalance());
+				System.out.printf("New Balance: %.2f%n", acc.getBalance());
 			}
 			catch (BusinessException e) {
 				System.out.println(e.getMessage());
